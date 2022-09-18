@@ -3,7 +3,7 @@
     <head>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Simple Interest Calculator</title>
+    <title>Web App – Simple Interest Calculator</title>
     </head>
     <body>
         <div class="maindiv">
@@ -15,7 +15,7 @@
 
                 <br/>
 
-                Interest Rate <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" style="margin-left: 22px" onchange="updateRate()">  
+                Interest Rate <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" style="margin-left: 22px" oninput="updateRate()">  
                 <span id="rate_val">10.25%</span><br/>
 
                 <br/>
@@ -43,7 +43,7 @@
 
                 <span id="result"></span>
             </div>
-            <footer>&#169; This Calculator belongs to Marcus-Indrek Simmer</footer>
+            <footer>Ⓒ Everyone Can Get Rich</footer>
         </div>
     </body>
 </html>
